@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muon</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/1b6302cb5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <!-- Navbar -->
+      <!-- NAVBAR NEW STarts-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          
+          <a class="navbar-brand fs-3 " href="index.html" target="_blank"><img class=" " src="/images/logo.png" alt="Muon" width="30" height="25" >uon</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0   ">
+              <li class="nav-item me-2 ">
+                <button class="btn btn-outline-primary btn-sm">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </button>
+              </li>
+              <li class="nav-item me-2">
+                <button class="btn btn-outline-primary btn-sm">
+                  <a class="nav-link active" aria-current="page" href="#">Accomodation</a>
+                </button>
+              </li>
+              <li class="nav-item me-2">
+                <button class="btn btn-outline-primary btn-sm">
+                  <a class="nav-link active" aria-current="page" href="#">Academics</a>
+                </button>
+              </li>
+              <li class="nav-item me-5">
+                <button class="btn btn-outline-primary btn-sm ">
+                  <a class="nav-link active" aria-current="page" href="#">Jobs</a>
+                </button>
+              </li>
+              <li class="nav-item me-2">
+                <button class="btn btn-outline-primary btn-sm">
+                  <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                </button>
+              </li>
+              <li class="nav-item me-2">
+                <button class="btn btn-primary btn-sm">
+                  <a class="nav-link active" aria-current="page" href="register.html">Register</a>
+                </button>
+              </li>
+             
+              
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR NEW ENDS -->
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid ms-4">
+          <a class="navbar-brand text-primary" href="#"> MUON </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-item" id="navbarNav ">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-primary me-2">
+                    Academic
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-primary me-2">
+                    Accomoation
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-primary me-5">
+                    Jobs
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-primary me-2">
+                    Log In
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-primary me-2">
+                    Register
+                  </button></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- SIGN UP POP-UP MODAL -->
+          <!-- <div class="d-flex justify-content-evenly align-items-center">
+            <div>
+              <a class="nav-link" href="#exampleModal"
+                ><button
+                  type="button"
+                  class="btn btn-primary text-light me-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Register <i class="fa-solid fa-right-to-bracket"></i></button
+              ></a>
+              <div
+                class="modal modal-signin"
+                tabindex="-1"
+                role="dialog"
+                id="exampleModal"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content rounded-4 shadow">
+                    <div class="modal-header p-5 pb-4 border-bottom-0">
+                      <h2 class="fw-bold mb-0">Welcome!</h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body p-5 pt-0">
+                      <form class="">
+                        <div class="form-floating mb-3">
+                          <input
+                            type="email"
+                            class="form-control rounded-3"
+                            id="floatingInput"
+                            placeholder="name@example.com"
+                          />
+                          <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input
+                            type="password"
+                            class="form-control rounded-3"
+                            id="floatingPassword"
+                            placeholder="Password"
+                          />
+                          <label for="floatingPassword">Password</label>
+                        </div>
+                        <button
+                          class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                          type="submit"
+                        >
+                          Sign Up
+                        </button>
+                        <small class="text-muted"
+                          >By selecting Register, you consent to the terms of
+                          service</small
+                        >
+                        <hr class="my-4" />
+                        <h2 class="fs-5 fw-bold mb-3">
+                          Use a third party instead
+                        </h2>
+                        <button
+                          class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3"
+                          type="submit"
+                        >
+                          <svg class="bi me-1" width="16" height="16">
+                            <use xlink:href="#twitter" />
+                          </svg>
+                          Sign Up with Twitter
+                        </button>
+                        <button
+                          class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                          type="submit"
+                        >
+                          <svg class="bi me-1" width="16" height="16">
+                            <use xlink:href="#facebook" />
+                          </svg>
+                          Sign Up with Facebook
+                        </button>
+                        <button
+                          class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                          type="submit"
+                        >
+                          <svg class="bi me-1" width="16" height="16">
+                            <use xlink:href="#github" />
+                          </svg>
+                          Sign Up with GitHub
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </nav> -->
+      
+      <main>
+        <section class=" bg-dark h-75 mt-5">
+            <div class="container h-100 bg ">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-12 col-xl-11">
+                  <div class="card text-black " style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                      <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1  rounded-5">
+          
+                          <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register</p>
+          
+                          <form class="mx-1 mx-md-4">
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                              <div class="form-outline flex-fill mb-0">
+                                <input type="text" id="form3Example1c" class="form-control" />
+                                <label class="form-label" for="form3Example1c">Enter Your Name</label>
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                              <div class="form-outline flex-fill mb-0">
+                                <input type="email" id="form3Example3c" class="form-control" />
+                                <label class="form-label" for="form3Example3c">Enter Valid Email</label>
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                              <div class="form-outline flex-fill mb-0">
+                                <input type="password" id="form3Example4c" class="form-control" />
+                                <label class="form-label" for="form3Example4c">Password</label>
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                              <div class="form-outline flex-fill mb-0">
+                                <input type="password" id="form3Example4cd" class="form-control" />
+                                <label class="form-label" for="form3Example4cd">Confirm password</label>
+                              </div>
+                            </div>
+          
+                            <div class="form-check d-flex justify-content-center mb-5">
+                              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                              <label class="form-check-label" for="form2Example3">
+                                I agree all statements in <a href="#!">Terms of service</a>
+                              </label>
+                            </div>
+          
+                            <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                              <button type="button" class="btn btn-primary btn-lg">Register</button>
+                            </div>
+                            <div class=" pt-5">
+                                <p class="">
+                                    Already Registered? <button class="btn btn-primary btn-sm"><a href="login.html"></a> Login</button>
+                                </p>
+                            </div>
+          
+                          </form>
+          
+                        </div>
+                        <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+          
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                            class="img-fluid" alt="Sample image">
+          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </main>
+
+    <footer class="bg-dark mt-5 pt-5 mt-sm-5 pt-sm-5  mt-md-5 pt-md-5" >
+      <div class="text-center text-light">
+        <h1 class="my-4 fw-bold fs-1">
+          Invented & Developed by <span class="text-primary">Muon</span>
+        </h1>
+        <h4>Bashundhara R/A, Dhaka-1229, Bangladesh</h4>
+        <h4>© All Rights Reserved</h4>
+        <p>Privacy Policy | Terms & Conditions</p>
+        <p class="my-4">
+          <i class="fa-brands fa-facebook fs-1 px-1 mx-3"></i>
+          <i class="fa-brands fa-twitter fs-1 px-1 mx-3"></i
+          ><i class="fa-brands fa-linkedin fs-1 px-1 mx-3"></i
+          ><i class="fa-solid fa-paper-plane fs-1 px-1 my-4 mx-3"></i>
+        </p>
+      </div>
+    </footer>
+    <script src="bootstrap/bootstrap.min.js"></script>
+  </body>
+</html>

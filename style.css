@@ -1,7 +1,15 @@
-
+/* 
 .nav-item{
 justify-content: end;
 }
 .navbar {
 margin-bottom: 20px;
+} */
+.carousel-inner{
+    background-color: rgb(69, 69, 69);
+    border-radius: 5px;
+    border: 2px dotted blueviolet;
 }
+
+
+
